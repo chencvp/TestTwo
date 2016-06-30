@@ -1,3 +1,12 @@
 This is a text file I created from Ubuntu to test adding to the repo:wq
 
 
+
+
+I'm adding some code here: "1+1+1-1-1+1-1".split(/[+,-]/)
+
+Then, I'm going to push these changes to git.
+Maybe I'll try to merge.
+
+
+
