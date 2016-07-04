@@ -9,4 +9,4 @@ Then, I'm going to push these changes to git.
 Maybe I'll try to merge.
 
 
-
+7/4 : Adding more code here (Windows 10 station, Git bash, notepad)
