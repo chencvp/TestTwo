@@ -1,0 +1,17 @@
+<html>
+	<head>
+		<script type="text/javascript">
+			var xhr = new XMLHttpRequest();
+			xhr.onreadystatechange = function() {
+				if (this.readyState == 4 && this.status == 200) {
+				  document.getElementById("hello").innerHTML = xhr.responseText
+				}
+			}
+			xhr.open('GET', "http://f01k5conp7.execute-api.us-east-2.amazonaws.com/pixtml_prod/uploader");
+			xhr.send();
+		</script>
+	</head>
+	<body>
+		<div  id="hello" />
+	</body>
+</html>
